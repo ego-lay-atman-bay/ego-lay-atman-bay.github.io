@@ -22,9 +22,21 @@ li {
     position: fixed;
     width: 100%;
     top: 0%;
+    height: 50px;
+    z-index:99;
 }
 .nav-links a {
     color: #fff;
+}
+.menu span{
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+.menu span:hover {
+    cursor: pointer;
 }
 /* LOGO */
 .logo {
