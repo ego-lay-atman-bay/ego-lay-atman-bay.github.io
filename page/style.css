@@ -1,0 +1,19 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+#content {
+    width: 30rem;
+    margin: 20px auto;
+    margin-top: 5rem;
+    
+
+    font-family: WorkSans-Regular;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.dark-mode {
+    background-color: hsl(0, 0%, 10%);
+}
