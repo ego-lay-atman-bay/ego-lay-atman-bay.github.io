@@ -51,7 +51,7 @@ li {
     gap: 1em;
     font-size: 18px;
 }
-.menu li:hover li:active {
+.menu li:hover {
     background-color: hsl(203, 58%, 40%);
     border-radius: 5px;
     transition: 0.3s ease;
