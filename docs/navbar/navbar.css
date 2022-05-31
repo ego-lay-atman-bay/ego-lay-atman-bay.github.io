@@ -28,14 +28,17 @@ li {
 .nav-links a {
     color: #fff;
 }
-.menu span{
+.nav-links a:hover {
+    cursor: pointer;
+}
+.nav-links span{
     user-select: none; /* supported by Chrome and Opera */
     -webkit-user-select: none; /* Safari */
     -khtml-user-select: none; /* Konqueror HTML */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
 }
-.menu span:hover {
+.nav-links span:hover {
     cursor: pointer;
 }
 /* LOGO */
