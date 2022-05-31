@@ -8,5 +8,9 @@ function topnavOpen() {
       x.className += " responsive";
     } else {
       x.className = "topnav";
-    }
   }
+}
+
+// document.addEventListener('mousemove', e => {
+//   console.log(document.elementsFromPoint(e.clientX, e.clientY) )
+// }, {passive: true})
