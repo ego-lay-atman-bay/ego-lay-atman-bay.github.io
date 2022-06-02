@@ -1,3 +1,7 @@
+$(function(){
+  $("#navbar").load("/navbar/navbar.html"); 
+});
+
 function hasClass(ele,cls) {
   return ele.className.match(new RegExp("(\\s|^)"+cls+"(\\s|$)"));
 }
