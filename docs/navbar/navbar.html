@@ -1,24 +1,27 @@
 <link rel="stylesheet" href="/navbar/navbar.css">
 <!-- <script src="/assets/jquery-3.6.0.min.js"></script> -->
-<!-- <script src="/navbar/navbar.js"></script> -->
+<script src="/navbar/navbar.js"></script>
 
 <nav id="topnav" class="navbar">
-    <div class="logo">
+    <div class="logo" ontouchstart="">
         <a href="/">
         <img src="/assets/profile pic.png" height="40">
         <span >ego-lay-atman-bay</span>
     </a>
     </div>
+    <input type="checkbox" name="debug" id="debug-toggle">
+    <textarea id="debug"></textarea>
+
     <!-- NAVIGATION MENU -->
     <ul class="nav-links">
         <!-- USING CHECKBOX HACK -->
-        <input type="checkbox" id="checkbox_toggle" />
-        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger" hidden />
+        <label for="hamburger" class="hamburger">&#9776;</label>
         <!-- NAVIGATION MENUS -->
         <div class="menu">
-            <li><a href="/" ontouchstart="">Home</a></li>
-            <li><a href="/#about" ontouchstart="">About</a></li>
-            <li class="projects" ontouchstart="">
+            <li><a href="/" ontouchstart="" class="hover">Home</a></li>
+            <li><a href="/#about" ontouchstart="" class="hover">About</a></li>
+            <li class="projects dummy" ontouchstart="">
                 <a>Projects</a>
                 <ul class="dropdown">
                     <li><a href="/scratch-node-editor">Scratch Node Editor</a></li>

@@ -130,7 +130,7 @@
 
 /*RESPONSIVE NAVBAR MENU STARTS*/
 /* CHECKBOX HACK */
-input[type=checkbox]{
+#hamburger input[type=checkbox]{
     display: none;
 } 
 /*HAMBURGER MENU*/
@@ -151,7 +151,7 @@ input[type=checkbox]{
     padding: 16px 0;
 }
 
-.menu li:hover {
+.menu .hover:hover {
     transition: 0.3s ease;
     background-color: hsl(203, 58%, 40%);
 }
@@ -181,4 +181,12 @@ input[type=checkbox]:checked ~ .menu{
 .dropdown li:hover {
     background-color: hsl(203, 58%, 40%);
 }
+}
+
+#debug {
+    display: none;
+}
+
+input[type=checkbox]:checked ~ #debug{
+    display: block;
 }
