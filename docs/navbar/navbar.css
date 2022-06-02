@@ -31,6 +31,11 @@
 }
 .nav-links a {
     color: #fff;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
 }
 .nav-links a:hover {
     cursor: pointer;
@@ -47,7 +52,34 @@
 }
 /* LOGO */
 .logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.logo img {
     size: 40px;
+}
+.logo a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.logo span {
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 14px;
+    font-size: 24px;
+}
+.logo:hover,.logo:active,.logo:focus {
+    transition: 0.3s ease;
+    background-color: hsl(203, 58%, 40%);
 }
 /* NAVBAR MENU */
 .menu {
