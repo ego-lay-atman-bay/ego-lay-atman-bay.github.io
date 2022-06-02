@@ -39,7 +39,7 @@ if (true) {
   })
   .bind("touchend", function() {
       $(this).removeClass("fake-active");
-  });
+  })
   .bind("touchcancel",
  function() {
   var $this = $(this);
