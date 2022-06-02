@@ -87,7 +87,7 @@
     gap: 1em;
     font-size: 18px;
 }
-.menu li:hover, .menu li:active, .menu li:focus{
+.menu li:hover, .menu li:active, .menu li:focus, .menu li.fake-active{
     background-color: hsl(203, 58%, 40%);
     border-radius: 5px;
     transition: 0.3s ease;
@@ -120,7 +120,7 @@
 .dropdown li:hover {
     background-color: hsl(203, 58%, 40%);
 }
-.projects:hover .dropdown {
+.projects:hover .dropdown, .projects:active .dropdown, .projects:focus .dropdown, .projects.fake-active .dropdown {
     align-items: center;
     display: flex;
     justify-content: center;
