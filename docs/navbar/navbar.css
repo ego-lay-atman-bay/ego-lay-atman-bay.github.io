@@ -100,7 +100,7 @@
     position: relative; 
 }
 .dropdown {
-    background-color: hsl(203, 58%, 45%);
+    background-color: hsl(203, 58%, 46%);
     padding: 0.5em;
     position: absolute; /*WITH RESPECT TO PARENT*/
     display: none;
