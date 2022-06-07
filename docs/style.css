@@ -17,3 +17,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .dark-mode {
     background-color: hsl(0, 0%, 10%);
 }
+
+.social {
+    display: block;
+    margin-top: 1em;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.social-container a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    size: 20px;
+    margin-top: 4px;
+}
+
+.social-container a + .social-container a {
+    margin-top: 4px;
+}
