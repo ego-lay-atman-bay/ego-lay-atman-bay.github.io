@@ -14,10 +14,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     line-height: 1;
 }
 
-.dark-mode {
-    background-color: hsl(0, 0%, 10%);
-}
-
 .social {
     display: block;
     margin: 1em 0;
