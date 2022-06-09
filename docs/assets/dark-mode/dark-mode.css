@@ -1,6 +1,7 @@
-@media (prefers-color-scheme: dark) { 
+@media (prefers-color-scheme: dark) {
     body {
-        background-color: hsl(0, 0%, 10%);
+        background-color: #1a1a1a;
+        color-scheme: light dark;
     }
     #content {
         color: white;
