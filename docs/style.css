@@ -25,6 +25,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .social-container a {
@@ -32,9 +33,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     flex-direction: row;
     align-items: center;
     size: 20px;
-    margin-top: 4px;
+    margin: 4px;
 }
 
 .social-container a + .social-container a {
     margin-top: 4px;
+}
+
+@media (max-width: 30rem) {
+    #content {
+        width: auto;
+    }
 }
