@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: ego-lay-atman-bay.github.io
+Token: 899bf4ac3c93435fedcf5cef2afa03732f81cdcf1bf7b60bb41a67a2e339f863
