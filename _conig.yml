@@ -1,0 +1,4 @@
+# Force inclusion of directories and/or files in the
+# conversion. .htaccess is a good example since dotfiles are excluded
+#  by default.
+include: [".well-known"]
