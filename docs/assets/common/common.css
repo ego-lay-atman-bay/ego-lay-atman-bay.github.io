@@ -9,7 +9,7 @@ code {
     background-color: hsl(0, 0%, 90%);
     color: #000;
     margin: 1em;
-    padding: 0 1em;
+    padding: 1em;
     border-radius: 5px;
     white-space: pre-wrap;
     overflow: auto;
