@@ -5,9 +5,13 @@
 }
 
 code {
-    display: block;
     background-color: hsl(0, 0%, 90%);
     color: #000;
+    font-family: monospace;
+}
+
+.code-block {
+    display: block;
     margin: 1em;
     padding: 1em;
     border-radius: 5px;
@@ -16,8 +20,14 @@ code {
     white-space: pre;
 }
 
+.code-inline {
+    border-radius: 2px;
+    padding: 2px 4px;
+}
+
 @media (prefers-color-scheme: dark) {
     code {
-        background-color: hsl(0, 0%, 60%);
+        background-color: hsl(0, 0%, 30%);
+        color: white;
     }
 }
