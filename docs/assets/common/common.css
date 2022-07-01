@@ -3,3 +3,21 @@
     margin: 24px auto 0;
     margin-top: 5rem;
 }
+
+code {
+    display: block;
+    background-color: hsl(0, 0%, 90%);
+    color: #000;
+    margin: 1em;
+    padding: 0 1em;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    overflow: auto;
+    white-space: pre;
+}
+
+@media (prefers-color-scheme: dark) {
+    code {
+        background-color: hsl(0, 0%, 60%);
+    }
+}
