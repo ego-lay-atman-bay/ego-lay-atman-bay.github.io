@@ -6,4 +6,13 @@
     #content {
         color: white;
     }
+    a {
+        color: #9E9EFF;
+    }
+    a::visited {
+        color: #D0ADF0;
+    }
+    a::active {
+        color: #ff9e9e;
+    }
 }

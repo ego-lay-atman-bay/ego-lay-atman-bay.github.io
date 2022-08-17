@@ -1,0 +1,19 @@
+{
+    "workbench.colorTheme": "Default Light+",
+    "vscode-edge-devtools.mirrorEdits": true,
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "brave",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.port": 0,
+    "liveServer.settings.root": "/docs",
+    "liveServer.settings.donotVerifyTags": true,
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "explorer.confirmDelete": false,
+    "terminal.explorerKind": "external",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.mouseWheelScrollSensitivity": 0.5
+}
