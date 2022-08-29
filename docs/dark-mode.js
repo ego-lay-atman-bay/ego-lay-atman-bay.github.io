@@ -1,8 +1,8 @@
 function colorScheme(scheme) {
     if (scheme == 'dark') {
-        document.getElementById("github-img").src = "\\assets\\icons\\GitHub\\PNG\\GitHub-Mark-Light-120px-plus.png"
+        document.getElementById("github-img").src = "\\assets\\icons\\GitHub\\Vector\\GitHub-Mark-dark-16px.svg"
     } else {
-        document.getElementById("github-img").src = "\\assets\\icons\\GitHub\\PNG\\GitHub-Mark-120px-plus.png"
+        document.getElementById("github-img").src = "\\assets\\icons\\GitHub\\Vector\\GitHub-Mark-light-16px.svg"
     }
 }
 
