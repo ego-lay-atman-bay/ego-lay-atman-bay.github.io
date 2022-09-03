@@ -10,6 +10,9 @@ assignees: ego-lay-atman-bay
 **Describe the bug**
 A clear and concise description of what the bug is.
 
+**Userscript**
+Which userscript is having this issue
+
 **To Reproduce**
 Steps to reproduce the behavior:
 1. Go to '...'

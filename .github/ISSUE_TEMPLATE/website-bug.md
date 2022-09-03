@@ -2,7 +2,7 @@
 name: Website bug
 about: A bug about the website
 title: ''
-labels: ''
+labels: bug, website bug
 assignees: ''
 
 ---
