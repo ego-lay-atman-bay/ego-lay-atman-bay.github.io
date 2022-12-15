@@ -5,7 +5,7 @@
     "liveServer.settings.AdvanceCustomBrowserCmdLine": "brave",
     "liveServer.settings.CustomBrowser": "chrome",
     "explorer.confirmDragAndDrop": false,
-    "liveServer.settings.port": 0,
+    "liveServer.settings.port": 1000,
     "liveServer.settings.root": "/docs",
     "liveServer.settings.donotVerifyTags": true,
     "[xml]": {
